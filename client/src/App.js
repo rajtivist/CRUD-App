@@ -4,8 +4,14 @@ function App() {
   return (
     <div className="App"> 
     <h1>Movie Reviews</h1>
-    <input type="text" name="MovieName" />
-    <input type="text" name="review" /> 
+      <div class="form">
+        <lable class="label">Movie Name</lable>
+        <input type="text" name="MovieName" />
+        <lable class="label">Review</lable>
+        <input type="text" name="review" /> 
+
+        <button>Submit</button>
+      </div>
     </div>
   );
 }
